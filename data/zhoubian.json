@@ -1,0 +1,49 @@
+[{
+    "name": "魅族 EP2C 耳机",
+    "content": "钕铁硼单元 Type-C接口",
+    "price": 129,
+    "url": "/images/6-2.jpg",
+    "ismain": true
+}, {
+    "name": "魅蓝 EP52 蓝牙耳机",
+    "content": "轻盈悦耳 动无拘束",
+    "price": 199,
+    "url": "/images/6-3.png",
+    "ismain": false
+}, {
+    "name": "魅族 Flow Bass 三单元耳机",
+    "content": "延续经典，重赋新声",
+    "price": 599,
+    "url": "/images/6-4.jpg",
+    "ismain": false
+}, {
+    "name": "魅族 EP2X 耳机",
+    "content": "契合声音的流动之美",
+    "price": 69,
+    "url": "/images/6-5.jpg",
+    "ismain": false
+}, {
+    "name": "魅族 EP2X 耳机",
+    "content": "契合声音的流动之美",
+    "price": 69,
+    "url": "/images/6-6.jpg",
+    "ismain": true
+}, {
+    "name": "魅族 EP2X 耳机",
+    "content": "契合声音的流动之美",
+    "price": 69,
+    "url": "/images/6-7.png",
+    "ismain": false
+}, {
+    "name": "魅族 EP2X 耳机",
+    "content": "契合声音的流动之美",
+    "price": 69,
+    "url": "/images/6-8.png",
+    "ismain": false
+}, {
+    "name": "魅族 EP2X 耳机",
+    "content": "契合声音的流动之美",
+    "price": 69,
+    "url": "/images/6-9.png",
+    "ismain": false
+}]
