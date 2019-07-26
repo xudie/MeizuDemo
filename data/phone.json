@@ -1,0 +1,65 @@
+[{
+    "link": "#",
+    "offer": "直降",
+    "imgSrc": "/images/15.png",
+    "name": "魅族 Note9",
+    "property": "骁龙675 后置4800万",
+    "value": "1199",
+    "Judge": true
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/16.png",
+    "name": "魅族 16th",
+    "property": "骁龙845 屏幕下指纹",
+    "value": "2298",
+    "Judge": false
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/17.png",
+    "name": "魅族 16th Plus",
+    "property": "骁龙845 屏幕下指纹",
+    "value": "2698",
+    "Judge": false
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/18.png",
+    "name": "魅族 X8",
+    "property": "骁龙710 旗舰双摄",
+    "value": "1298",
+    "Judge": false
+}, {
+    "link": "#",
+    "offer": "直降",
+    "imgSrc": "/images/19.png",
+    "name": "魅族 16X",
+    "property": "骁龙710 屏幕下指纹 旗舰双摄",
+    "value": "1598",
+    "Judge": true
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/20.png",
+    "name": "魅族 16s 白夜童话限量礼盒",
+    "property": "以梦为马 乘风破浪",
+    "value": "3099",
+    "Judge": false
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/21.png",
+    "name": "魅族 Note8",
+    "property": "全像素双核对焦 大电池长续航",
+    "value": "999",
+    "Judge": false
+}, {
+    "link": "#",
+    "offer": "领券",
+    "imgSrc": "/images/22.png",
+    "name": "魅族 15",
+    "property": "骁龙660 2000万暗光双摄",
+    "value": "1498",
+    "Judge": false
+}]

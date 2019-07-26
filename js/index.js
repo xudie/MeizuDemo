@@ -2,11 +2,13 @@
 
 window.onload = (function () {
     loadDataPic();
-    loadDataRJ();
+    loadDataEJ();
     loadDataPJ();
     loadDataZB();
     loadDataRT();
     loadDataFly();
+    loadDataHD();
+    loadDataPhone();
 });
 
 function loadDataPic() {
@@ -39,6 +41,7 @@ function loadDataPic() {
                     console.log('当前的slide序号是' + this.activeIndex);
                     let textList = document.querySelectorAll(".right .nav li a");
                     let searchBorder = document.querySelector(".right .search");
+                    let logoColor = document.querySelector(".logo a");
                     console.log(textList);
 
                     if (this.activeIndex == 2 || this.activeIndex == 5) {
@@ -46,11 +49,13 @@ function loadDataPic() {
                             item.classList.add("headertext");
                         });
                         searchBorder.classList.add("section-border");
+                        logoColor.classList.add("logo-color");
                     } else {
                         textList.forEach(item => {
                             item.classList.remove("headertext");
                         });
                         searchBorder.classList.remove("section-border");
+                        logoColor.classList.remove("logo-color");
                     }
                 }
             }
@@ -58,8 +63,8 @@ function loadDataPic() {
     });
 }
 
-function loadDataRJ() {
-    $.get("/data/rj.json", null, function (data) {
+function loadDataEJ() {
+    $.get("/data/ej.json", null, function (data) {
         console.log(data);
         let html = ''
         data.forEach(item => {
@@ -73,7 +78,6 @@ function loadDataRJ() {
         document.querySelector(".headset-show").innerHTML = html;
     });
 }
-
 
 function loadDataPJ() {
     $.get("/data/peijian.json", null, function (data) {
@@ -133,4 +137,37 @@ function loadDataFly() {
         });
         document.querySelector(".Flyme-show").innerHTML = `<div class="Flyme-show-spacial"><a href="#"><img src="/images/9-1.png"></a></div>` + html;
     });
+}
+
+function loadDataHD() {
+    $.get("data/huodong.json", null, function (data) {
+        let html = "";
+        data.forEach(item => {
+            html += `<li><a href="${item.link}">`;
+            html += `<img src="${item.imgSrc}">`
+            html += `<p>${item.title}</p><span>${item.description}</span></a></li>`
+        });
+        document.querySelector(".activity").innerHTML = html;
+    });
+}
+
+function loadDataPhone() {
+    $.get("data/phone.json", null, function (data) {
+        let html = "";
+        data.forEach(item => {
+            html += `<div class="${item.Judge ? 'item special':'item' }">`;
+            html += `<a href="${item.link}">`;
+            html += `<div class="${item.Judge ? 'classification-one':'classification-two' }"><span>${item.offer}</span></div>`;
+            html += `<img class="same-img" src="${item.imgSrc}">`
+            html += `<div class="same-title">`;
+            html += `<p>${item.name}</p>`;
+            html += `<p>${item.property}</p>`;
+            html += `<span><i>￥</i>${item.value}</span></div></a></div>`;
+        });
+        document.querySelector(".ipone-show-region").innerHTML = html;
+    });
+}
+
+function headerMouse() {
+
 }
