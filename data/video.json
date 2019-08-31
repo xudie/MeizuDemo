@@ -1,0 +1,46 @@
+[{
+        "href": "https://cimg2.res.meizu.com/www/201908/16s pro feature视频16比9_1.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2019/08/28/860646ff-bb80-43cc-b6ff-192b7ac6ccf1.jpg",
+        "name": "让热爱 更澎湃：魅族 16s Pro 手机",
+        "special": true
+    },
+    {
+        "href": "https://cimg2.res.meizu.com/www/201904/pop2.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2019/04/23/ffedd682-1daa-41be-b1a8-ee769d35ff56.jpg",
+        "name": "时刻伴你左右：POP2 真无线蓝牙耳机",
+        "special": true
+    }, {
+        "href": "https://cimg2.res.meizu.com/www/201905/16xs.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2019/05/30/fca78a73-dca5-4476-a004-412e868f8726.jpg",
+        "name": "极边全面屏 三摄长续航：魅族 16Xs 手机",
+        "special": true
+    }, {
+        "href": "https://cimg2.res.meizu.com/www/201905/16s-liangxiang.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2019/04/23/1008d8c3-fb6a-44c9-a393-1d5d7a595201.jpg",
+        "name": "追求不止 只因热爱：魅族 16s 旗舰手机",
+        "special": false
+    },
+    {
+        "aHref": "https://www3.res.meizu.com/video/Flyme7_896X512_2.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/45e511b0-51ff-46a9-93ed-83b2ec522d24.jpg",
+        "name": "Flyme 7",
+        "special": true
+    },
+    {
+        "aHref": "https://www3.res.meizu.com/video/安全家庭视频_1.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/3b75dc9f-7af7-4104-94fa-a384252ef78c.jpg",
+        "name": "安全家庭",
+        "special": true
+    },
+    {
+        "aHref": "https://www3.res.meizu.com/video/天空之城_2.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/05560a91-cabe-48c5-9bd9-c8dd52a2ecb7.jpg",
+        "name": "魅族互娱 MGC 探险嘉年华",
+        "special": true
+    }, {
+        "aHref": "https://www3.res.meizu.com/video/魅族王者1024.mp4",
+        "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/86e36692-1cdb-4906-a5df-7d8bcafe9ebe.jpg",
+        "name": "魅族互娱 MGC 探险嘉年华",
+        "special": false
+    }
+]

@@ -9,6 +9,7 @@ window.onload = (function () {
     loadDataFly();
     loadDataHD();
     loadDataPhone();
+    loadDataVideo();
 });
 
 function loadDataPic() {
@@ -168,6 +169,15 @@ function loadDataPhone() {
     });
 }
 
-function headerMouse() {
-
+function loadDataVideo() {
+    $.get("data/video.json", null, function (data) {
+        let html = "";
+        data.forEach(item => {
+            html += `<div class="video-show-item">`;
+            html += `<a href="${item.url}">`;
+            html += `<img src="${item.imgSrc}">`;
+            html += `<i></i><p>${item.name}</p> </a></div>`
+        });
+        document.querySelector(".video-show").innerHTML = html;
+    })
 }

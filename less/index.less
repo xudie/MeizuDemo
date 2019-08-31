@@ -394,20 +394,29 @@ i {
 
 //耳机展示区
 .section-one {
+    width: 100%;
     height: 1660px;
 
     .section-img {
+        width: 100%;
         height: 450px;
+        overflow: hidden;
 
         a {
             display: block;
             width: 100%;
             height: 100%;
+            position: relative;
+
 
             img {
+                position: absolute;
                 width: auto;
                 height: 100%;
-
+                // 绝对定位，使用以下方法使图片居中
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
             }
         }
     }
@@ -435,6 +444,7 @@ i {
                     }
 
                     .headset-show-title {
+                        width: 100%;
                         position: absolute;
                         bottom: 32px;
                         border: 1px solid rgb(156, 206, 38);
@@ -641,7 +651,75 @@ i {
 }
 
 
-//
+//video
+.section-six {
+    width: 100%;
+    height: 560px;
+    margin-top: 50px;
+
+    .video {
+        height: 506px;
+        overflow: hidden;
+
+        .video-show {
+            width: 1240px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border: 1px solid pink;
+
+            // .video-show-item-special {
+            //     width: 303px;
+            //     height: 245px;
+            //     background-color: #fff;
+            // }
+
+            .video-show-item {
+                width: 303px;
+                height: 245px;
+                background-color: #fff;
+
+                &:hover {
+                    box-shadow: -1px -1px 8px 5px rgb(233, 231, 231);
+                }
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: 190px;
+
+                    }
+
+                    i {
+                        width: 30px;
+                        height: 30px;
+                        background-image: url("../images//bofang.png");
+                        background-size: 100%;
+                        position: absolute;
+                        right: 15px;
+                        bottom: 15px;
+                    }
+
+                    p {
+                        width: 100%;
+                        font-size: 16px;
+                        color: #515151;
+                        line-height: 55px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//footer
 .footer {
     height: 248px;
     border-top: 1px solid #f1f1f1;
