@@ -174,10 +174,25 @@ function loadDataVideo() {
         let html = "";
         data.forEach(item => {
             html += `<div class="video-show-item">`;
-            html += `<a href="${item.url}">`;
+            html += `<a onclick="showVideo('${item.href}')">`;
             html += `<img src="${item.imgSrc}">`;
             html += `<i></i><p>${item.name}</p> </a></div>`
         });
         document.querySelector(".video-show").innerHTML = html;
     })
+}
+
+function showVideo(url) {
+    console.log(url);
+    document.querySelector(".model-video").innerHTML =
+        `<video style="width: 1200px;margin: 0 auto" src="${url}"` +
+        `style="width: 100%" controls="controls" autoplay></video>` +
+        `<span class="close" onclick="videoClose()">X</span>`
+
+    document.querySelector(".model-video").classList.add('active');
+}
+
+function videoClose() {
+    document.querySelector(".model-video").innerHTML = '';
+    document.querySelector(".model-video").classList.remove('active');
 }

@@ -21,24 +21,24 @@
         "special": false
     },
     {
-        "aHref": "https://www3.res.meizu.com/video/Flyme7_896X512_2.mp4",
+        "href": "https://www3.res.meizu.com/video/Flyme7_896X512_2.mp4",
         "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/45e511b0-51ff-46a9-93ed-83b2ec522d24.jpg",
         "name": "Flyme 7",
         "special": true
     },
     {
-        "aHref": "https://www3.res.meizu.com/video/安全家庭视频_1.mp4",
+        "href": "https://www3.res.meizu.com/video/安全家庭视频_1.mp4",
         "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/3b75dc9f-7af7-4104-94fa-a384252ef78c.jpg",
         "name": "安全家庭",
         "special": true
     },
     {
-        "aHref": "https://www3.res.meizu.com/video/天空之城_2.mp4",
+        "href": "https://www3.res.meizu.com/video/天空之城_2.mp4",
         "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/05560a91-cabe-48c5-9bd9-c8dd52a2ecb7.jpg",
         "name": "魅族互娱 MGC 探险嘉年华",
         "special": true
     }, {
-        "aHref": "https://www3.res.meizu.com/video/魅族王者1024.mp4",
+        "href": "https://www3.res.meizu.com/video/魅族王者1024.mp4",
         "imgSrc": "https://fms.res.meizu.com/dms/2018/11/27/86e36692-1cdb-4906-a5df-7d8bcafe9ebe.jpg",
         "name": "魅族互娱 MGC 探险嘉年华",
         "special": false

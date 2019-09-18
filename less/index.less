@@ -43,8 +43,6 @@ i {
     align-items: center;
     position: absolute;
     z-index: 2;
-    //background: pink;
-    //border: 1px solid red;
 
 
     .logo {
@@ -53,7 +51,6 @@ i {
         display: flex;
         justify-content: center;
         align-items: center;
-        //border: 1px solid rgb(98, 182, 216);
 
         a {
             color: #fff;
@@ -67,7 +64,6 @@ i {
         justify-content: center;
         align-items: center;
         margin-left: 200px;
-        //border: 1px solid rgb(155, 199, 34);
 
         .nav {
             width: 664px;
@@ -78,10 +74,6 @@ i {
                 width: 68px;
                 height: 82px;
                 display: inline-block;
-                //display: -webkit-flex;
-                //display: flex;
-                //justify-content: center;
-                //align-items: center;
 
                 a {
                     display: flex;
@@ -138,8 +130,6 @@ i {
             width: 29px;
             height: 29px;
             margin: 0 5px;
-            //border: 1px #fff solid;
-
 
             a {
                 display: block;
@@ -168,7 +158,6 @@ i {
 
                 &:nth-of-type(1) {
                     background-image: url("/images/1.jpg");
-
                 }
 
                 &:nth-of-type(2) {
@@ -215,14 +204,12 @@ i {
         width: 310px;
         height: 100%;
         align-items: center;
-        //border: 1px pink solid;
 
         a {
             display: block;
             width: 100%;
             height: 187px;
             text-align: center;
-            //border: 1px rgb(145, 7, 30) solid;
 
             img {
                 width: 130px;
@@ -248,12 +235,10 @@ i {
     width: 100%;
     height: 1895px;
     margin-top: 50px;
-    //border: 1px solid pink;
 
     .section-img-one {
         width: 100%;
         height: 450px;
-        border-bottom: 1px solid #eee;
 
         a {
             display: block;
@@ -267,14 +252,10 @@ i {
     .iphone-show {
         width: 100%;
         height: 1390px;
-        //border: 1px solid pink;
 
         .ipone-show-one {
             width: 100%;
             height: 610px;
-            // display: flex;
-            // justify-content: center;
-            //align-items: center;
             margin-top: 10px;
 
             .ipone-show-one-region {
@@ -282,15 +263,12 @@ i {
                 height: 100%;
                 margin: 0 auto;
                 display: flex;
-                //justify-content: center;
-                //align-items: center;
 
                 &>div {
                     width: 615px;
                     height: 610px;
                     background: #fff;
                     position: relative;
-                    //border: 1px solid pink;
 
                     &:nth-of-type(1) {
                         margin-right: 9px;
@@ -308,7 +286,6 @@ i {
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            //border: 1px solid pink;
 
                             p {
                                 color: #333;
@@ -424,7 +401,6 @@ i {
     .headset {
         width: 100%;
         height: 1155px;
-        border: 1px solid rgb(156, 206, 38);
 
 
         .headset-show {
@@ -447,7 +423,6 @@ i {
                         width: 100%;
                         position: absolute;
                         bottom: 32px;
-                        border: 1px solid rgb(156, 206, 38);
 
                         p {
                             font-size: 21px;
@@ -511,7 +486,6 @@ i {
     width: 100%;
     height: 840px;
     margin-top: 50px;
-    border: 1px solid pink;
 
     .Post {
         height: 795px;
@@ -522,9 +496,7 @@ i {
             margin: 0 auto;
             display: flex;
             justify-content: center;
-            //align-items: center;
             flex-wrap: wrap;
-            border: 1px solid rgb(240, 6, 45);
 
             .Post-show-item {
                 width: 303px;
@@ -563,7 +535,6 @@ i {
                             width: 36px;
                             height: 36px;
                             border-radius: 50%;
-                            border: 1px solid #fff;
                             box-shadow: 1px 1px 1px 1px #eee;
                         }
 
@@ -668,13 +639,6 @@ i {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            border: 1px solid pink;
-
-            // .video-show-item-special {
-            //     width: 303px;
-            //     height: 245px;
-            //     background-color: #fff;
-            // }
 
             .video-show-item {
                 width: 303px;
@@ -733,7 +697,6 @@ i {
         .service {
             height: 143px;
             display: flex;
-            border-bottom: 1px solid #eee;
 
             .service-project {
                 width: 940px;
@@ -741,12 +704,10 @@ i {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                //border: 1px solid blueviolet;
 
                 li {
                     width: 150px;
                     height: 69px;
-                    // border: 1px solid blueviolet;
 
                     a {
                         width: 100%;
@@ -885,7 +846,6 @@ i {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    border: 1px solid pink;
 }
 
 .item {
@@ -903,7 +863,6 @@ i {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
 }
 
@@ -923,7 +882,6 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //border: 1px solid pink;
 
     p {
         color: #333;
@@ -942,8 +900,33 @@ i {
     }
 }
 
-.pleyVideo {
-    //display: flex;
+.model-video {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    overflow: hidden;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 1);
+
+    &.active {
+        display: flex;
+    }
+
+    .close {
+        display: inline-block;
+        color: #fff;
+        margin-top: 10px;
+        margin-right: 10px;
+        height: 34px;
+        width: 30px;
+        font-size: 20px;
+        line-height: 34px;
+        font-family: '微软雅黑';
+        background-color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+    }
 }
